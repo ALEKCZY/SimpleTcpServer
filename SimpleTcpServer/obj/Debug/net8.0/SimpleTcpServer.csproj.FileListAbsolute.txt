@@ -1,0 +1,14 @@
+C:\Users\Koczy\SimpleTcpServer\bin\Debug\net8.0\SimpleTcpServer.exe
+C:\Users\Koczy\SimpleTcpServer\bin\Debug\net8.0\SimpleTcpServer.deps.json
+C:\Users\Koczy\SimpleTcpServer\bin\Debug\net8.0\SimpleTcpServer.runtimeconfig.json
+C:\Users\Koczy\SimpleTcpServer\bin\Debug\net8.0\SimpleTcpServer.dll
+C:\Users\Koczy\SimpleTcpServer\bin\Debug\net8.0\SimpleTcpServer.pdb
+C:\Users\Koczy\SimpleTcpServer\obj\Debug\net8.0\SimpleTcpServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Koczy\SimpleTcpServer\obj\Debug\net8.0\SimpleTcpServer.AssemblyInfoInputs.cache
+C:\Users\Koczy\SimpleTcpServer\obj\Debug\net8.0\SimpleTcpServer.AssemblyInfo.cs
+C:\Users\Koczy\SimpleTcpServer\obj\Debug\net8.0\SimpleTcpServer.csproj.CoreCompileInputs.cache
+C:\Users\Koczy\SimpleTcpServer\obj\Debug\net8.0\SimpleTcpServer.dll
+C:\Users\Koczy\SimpleTcpServer\obj\Debug\net8.0\refint\SimpleTcpServer.dll
+C:\Users\Koczy\SimpleTcpServer\obj\Debug\net8.0\SimpleTcpServer.pdb
+C:\Users\Koczy\SimpleTcpServer\obj\Debug\net8.0\SimpleTcpServer.genruntimeconfig.cache
+C:\Users\Koczy\SimpleTcpServer\obj\Debug\net8.0\ref\SimpleTcpServer.dll
