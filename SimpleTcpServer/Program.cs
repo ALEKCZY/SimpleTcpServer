@@ -24,8 +24,17 @@ class SimpleServer
 
             NetworkStream stream = client.GetStream();
             byte[] buffer = new byte[1024];
-            int bytesRead = stream.Read(buffer, 0, buffer.Length);
-            string receivedData = Encoding.UTF8.GetString(buffer, 0, bytesRead);
+            StringBuilder messageBuilder = new StringBuilder();
+            int bytesRead = 0;
+
+            do
+            {
+                bytesRead = stream.Read(buffer, 0, buffer.Length);
+                messageBuilder.Append(Encoding.UTF8.GetString(buffer, 0, bytesRead));
+            }
+            while (messageBuilder[messageBuilder.Length - 1] != '\n');
+
+            string receivedData = messageBuilder.ToString().TrimEnd('\n');
 
             // Проверка данных
             if (ValidateData(receivedData))
@@ -47,13 +56,10 @@ class SimpleServer
 
     private bool ValidateData(string data)
     {
-        // Простая проверка: строка не должна быть пустой и длина не должна превышать 100 символов
         if (string.IsNullOrWhiteSpace(data) || data.Length > 100)
         {
             return false;
         }
-
-        // Дополнительные проверки могут быть добавлены здесь (например, формат или тип данных)
         return true;
     }
 
